@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Contact"
+		android:textSize="18sp"
+		android:textStyle="bold"
+        />
+    
+    <TextView
+        android:id="@+id/ketid"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Id : "
+		android:textStyle="bold"
+		android:layout_below="@+id/title"
+		/>
+    
+    <TextView
+		android:id="@+id/tvid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/title"
+		android:layout_toRightOf="@+id/ketid"
+		android:text="id"
+		/>
+    
+    <TextView
+        android:id="@+id/ketname"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvid"
+		android:text="Name : "
+		android:textStyle="bold"
+		/>
+    
+    <TextView
+		android:id="@+id/tvname"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvid"
+		android:layout_toRightOf="@+id/ketname"
+		android:text="name"
+		/>
+    
+    <TextView
+        android:id="@+id/ketaddress"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Address : "
+		android:textStyle="bold"
+		android:layout_below="@+id/tvname"
+		/>
+    
+    <TextView
+        android:id="@+id/tvaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvname"
+        android:layout_toRightOf="@+id/ketaddress"
+        android:text="address"
+        />
+    
+    <TextView
+        android:id="@+id/ketemail"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Email : "
+		android:textStyle="bold"
+		android:layout_below="@+id/tvaddress"
+		/>
+    
+    <TextView
+		android:id="@+id/tvemail"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvaddress"
+		android:layout_toRightOf="@+id/ketemail"
+		android:text="email"
+		/>
+    
+    <TextView
+        android:id="@+id/ketphone"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Phone : "
+		android:textStyle="bold"
+		android:layout_below="@+id/tvemail"
+		/>
+    
+    <TextView
+		android:id="@+id/tvphone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvemail"
+		android:layout_toRightOf="@+id/ketphone"
+		android:text="phone"
+		/>
+    
+    <TextView
+        android:id="@+id/ketdob"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Dob : "
+		android:textStyle="bold"
+		android:layout_below="@+id/tvphone"
+		/>
+    
+    <TextView
+		android:id="@+id/tvdob"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvphone"
+		android:layout_toRightOf="@+id/ketdob"
+		android:text="dob"
+		/>
+    
+    <TextView
+        android:id="@+id/ketcreated_at"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Created_at : "
+		android:textStyle="bold"
+		android:layout_below="@+id/tvdob"
+		/>
+    
+    <TextView
+		android:id="@+id/tvcreated_at"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvdob"
+		android:layout_toRightOf="@+id/ketcreated_at"
+		android:text="created_at"
+		/>
+    
+    <TextView
+        android:id="@+id/ketupdated_at"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Updated_at : "
+		android:textStyle="bold"
+		android:layout_below="@+id/tvcreated_at"
+		/>
+    
+    <TextView
+		android:id="@+id/tvupdated_at"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tvcreated_at"
+		android:layout_toRightOf="@+id/ketupdated_at"
+		android:text="updated_at"
+		/>    
+    
+
+</RelativeLayout>
